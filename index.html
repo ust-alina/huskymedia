@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <title>ООО «Хаски медиа»</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
 </head>
 <body>
     
@@ -21,7 +24,7 @@
               <div class="header_top_contacts">
                   <div class="header_top_contacts_icon"><img class="header_icon" src="source/icons/icons8-телефон-50.png" /></div>
                   <div class="header_top_phones">
-                      <div class="header_top_phone"><a href="tel:+375298889928">+375 29 888-99-28</a></div>
+                      <div class="header_top_phone header_top_phone_1"><a href="tel:+375298889928">+375 29 888-99-28</a></div>
                       <div class="header_top_phone"><a href="tel:+375 25 949-05-41">+375 25 949-05-41</a></div>
                   </div>
                   <div class="header_top_widget">
@@ -40,7 +43,10 @@
 
             <div class="header_bottom">
                 <div class="header_wrap">
-                <div class="header_logo"><a href="#">huskymedia</a></div>
+                <div class="header_logo"><a href="#"><p>huskymedia</p>
+                    <p><span>Агентство комплексного интернет-маркетинга</span></p>
+                </a></div>
+                
                 <div class="header_menu">
                     <nav>
                         <ul>
@@ -62,19 +68,51 @@
         <main>
             
             <div class="main_banner">
-              <div class="main_wrap">
-                <div class="main_banner_img"><img src="source/img/баннер.png" /></div>
-                <div class="main_banner_contact_form">
-                    <div class="main_banner_contact_form-text"><p>Устали от неработающих стратегий? Ищите как увеличить прибыль?<br>
-                        <br>
-                        У нас есть решение!<br>
-                        <br>
-                        Комплексный подход по развитию Вашего бизнеса в интернете.<br>
-                        Откроем все секреты. Расскажем даже то, о чем умалчивают все!</p></div>
-                    <div class="main_banner_contact_form-button"><a href="#" class="button">Заказать консультацию</a></div>
+                <div class="main_banner_container_left">
+                    <p>Создание и продвижение <span>сайтов</span></p>
+                    <img class="banner_husky" src="source/img/husky.png">
+                    <img class="banner_uzor" src="source/img/uzor.png">
                 </div>
 
-              </div>
+                <div class="main_banner_container_right">
+                   <div class="main_banner_box">
+                        <div class="main_banner_text">
+                            <p>Устали от неработающих стратегий?<br>
+                            Ищете как увеличить прибыль?</p>
+                            <p class="big_text">У нас есть <span>решение</span>!</p>
+                        </div>
+                            <form action="" class="banner_callback-form-main">
+                              <div class="banner_contact-form_row">
+                                  <div class="banner_contact-form_item">
+                                      <input type="name" placeholder="Введите имя" name="name" class="required">
+                                  </div>
+                                  <div class="banner_contact-form_item">
+                                      <input type="tel" placeholder="Введите номер телефона" name="phone" class="required">
+                                  </div>
+                              </div>
+                              <div class="banner_contact-form_row">						
+
+                                      <input class="btn-input btn-input__submit" value="Заказать бесплатную консультацию" type="submit">
+
+                              </div>
+                              <div class="banner_contact-form_row">
+                                <input type="checkbox" id="checkbox" name="checkbox">
+                                <label class="label_checkbox" for="checkbox">согласие на обработку персональных данных</label>
+                              </div>
+                              
+                            </form>
+                   </div>
+
+                   <div class="main_banner_box_2">
+                       <div class="main_banner_arrow">
+                        <img src="source/img/arrow.png">
+                       </div>
+                       <div class="main_banner_arrow_text">
+                           <p>Комплексный подход к развитию Вашего бизнеса в интернете!</p>
+                       </div>
+                   </div>
+                </div>
+
             </div>
 
             <div class="main_wrap_color">
@@ -84,18 +122,18 @@
                     <h2 class="main_title">Наши услуги</h2>
                     <div class="main_services_container">
                         <div class="main_services_row">
-                            <div class="main_services_box main_services_box_1"><p>Комплексное<br> продвижение</p></div>
-                            <div class="main_services_box main_services_box_2"><p>Сео-продвижение</p></div>
+                            <div class="main_services_box main_services_box_1"><p>SEO - ПРОДВИЖЕНИЕ</p></div>
+                            <div class="main_services_box main_services_box_2"><div class="main_services_box_image main_services_box_image_2"><img src="source/img/services/promotion.png"></div><p>КОМПЛЕКСНОЕ<br> ПРОДВИЖЕНИЕ</p></div>
                             <div class="main_services_box main_services_box_3"><p>Контекстная реклама</p></div>
                         </div>
                         <div class="main_services_row">
-                            <div class="main_services_box main_services_box_4"><p>Разработка сайтов</p></div>
+                            <div class="main_services_box main_services_box_4"><div class="main_services_box_image main_services_box_image_4" ><img src="source/img/services/monitor.png"></div><p>Разработка сайтов</p></div>
                             <div class="main_services_box main_services_box_5"><p>Разработка лендингов</p></div>
                             <div class="main_services_box main_services_box_6"><p>Доработка сайтов</p></div>
                         </div>
                         <div class="main_services_row">
-                            <div class="main_services_box main_services_box_7"><p>Продвижение в соцсетях</p></div>
-                            <div class="main_services_box main_services_box_8"><p>Таргетированная реклама</p></div>
+                            <div class="main_services_box main_services_box_7"><p>Таргетированная реклама</p></div>
+                            <div class="main_services_box main_services_box_8"><div  class="main_services_box_image main_services_box_image_8"><img src="source/img/services/profile.png"></div><p>Продвижение в соц.сетях</p></div>
                             <div class="main_services_box main_services_box_9"><p>Другие услуги</p></div>
                         </div>
                     </div>
@@ -111,18 +149,41 @@
                         <div class="main_services_row">
                             <div class="main_case_box main_case_box_1">
                                 <div class="main_case_box_content">
-                                    <a href="multimarket.by">Multimarket.by</a>
-                                    <p>Услуга : seo-продвижение</p>
-                                    <p>Запрос: Вывести сайт в ТОП и увеличить целевой трафик.</p>
+                                    <a href="ADENT.BY">ADENT.BY</a>
+                                    <p>Разработка шаблонного сайта для стоматологии с использованием фреймворка LARAVEL</p>
                                 </div>
                             </div>
-                            <div class="main_case_box main_case_box_2"><p>Кейс</p></div>
-                            <div class="main_case_box main_case_box_3"><p>Кейс</p></div>
+                            <div class="main_case_box main_case_box_2">
+                                <div class="main_case_box_content">
+                                  <a href="">FOXBAT</a>
+                                  <p>Продвижение бренда одежды в INSTAGRAM</p>
+                                </div>
+                            </div>
+                            <div class="main_case_box main_case_box_3">
+                                <div class="main_case_box_content">
+                                    <a href="MULTIMARKET.BY">MULTIMARKET.BY</a>
+                                    <p>SEO-оптимизация интернет-магазина бытовой техники — как за 2 месяца увеличенить трафик X2!?</p>
+                                  </div>
+                            </div>
                         </div>
                         <div class="main_case_row">
-                            <div class="main_case_box main_case_box_4"><p>Кейс</p></div>
-                            <div class="main_case_box main_case_box_5"><p>Кейс</p></div>
-                            <div class="main_case_box main_case_box_6"><p>Кейс</p></div>
+                            <div class="main_case_box main_case_box_4">
+                                <div class="main_case_box_content">
+                                    <a href="LSTANDARD.LV">LSTANDARD.LV</a>
+                                    <p>Разработка мультиязычного сайта-визитки на WORDPRESS</p>
+                                  </div>
+                            </div>
+                            <div class="main_case_box main_case_box_5">
+                                <div class="main_case_box_content">
+                                    <a href="">BRELKI_OBLOZHKI</a>
+                                    <p>Увеличение количества подписчиков с 4000 до 8000 и продаж в <span>INSTAGRAM!</span></p>
+                                  </div>
+                            </div>
+                            <div class="main_case_box main_case_box_6">
+                                <div class="main_case_box_content">
+                                    <a href="">ВСЕ КЕЙСЫ</a>
+                                  </div>
+                            </div>
                         </div>
                         
                     </div>
@@ -131,35 +192,24 @@
             
             
                 <div class="main_about">
-
-                    <div class="main_about_box_left">
-                        <div class="main_about_wrap">
-                           <div class="main_about_button"><a href="#" class="button">Узнать больше</a></div>
+                    <h2 class="main_title">Кто мы?</h2>
+                    <div class="main_about_container">
+                        <div class="main_about_box_left">
+                            <div class="main_about_wrap">
+                              <div class="main_about_text">            
+                                <p>Более двух лет мы помогаем нашим клиентам добиваться лучших результатов в интернет -пространстве.</p>
+                                <p><span>Husky Media</span> – это умная вебстудия с комплексным подходом.к продвижению Вашего бизнеса в интернете.</p>
+                              </div>
+                            </div>
+                        </div>
+    
+                        <div class="main_about_box_right">
+                            <div class="main_about_wrap">
+                               <div class="main_about_button"><a href="#" class="button">Узнать больше</a></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="main_about_box_right">
-                        <div class="main_about_wrap">
-                          <div class="main_about_text">
-                        
-                            <h3>Кто мы</h3>
-                      
-                            <p>Более двух лет мы помогаем нашим клиентам добиваться лучших результатов в интернет -пространстве.
-                        Husky Media – это умная вебстудия с комплексным подходом.к продвижению Вашего бизнеса в интернете.
-                            </p>
-                            <br>
-                            <p>Хаски – это</p>
-                            <ul>
-                           <li>100% преданность идее ПОМОЧЬ своему Клиенту;</li>
-                           <li>"Умный" подход к раскрутке бизнеса в Сети;</li>
-                           <li>Полное погружение в тематику;</li>
-                           <li>Оперативная обратная связь;</li>
-                           <li>Использование актуальных технологий;</li>
-                           <li>Полный спектр услуг в сфере интернет - маркетинга.</li>
-                           
-                            </ul>
-                          </div>
-                        </div>
-                    </div>
+                    
                 </div>
             
 
