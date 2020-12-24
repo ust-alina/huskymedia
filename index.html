@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>ООО «Хаски медиа»</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body>
     
@@ -65,7 +66,7 @@
             </div>
 
         </header>
-        <main>
+        <main class="main">
             
             <div class="main_banner">
                 <div class="main_banner_container_left">
@@ -122,19 +123,19 @@
                     <h2 class="main_title">Наши услуги</h2>
                     <div class="main_services_container">
                         <div class="main_services_row">
-                            <div class="main_services_box main_services_box_1"><p>SEO - ПРОДВИЖЕНИЕ</p></div>
-                            <div class="main_services_box main_services_box_2"><div class="main_services_box_image main_services_box_image_2"><img src="source/img/services/promotion.png"></div><p>КОМПЛЕКСНОЕ<br> ПРОДВИЖЕНИЕ</p></div>
-                            <div class="main_services_box main_services_box_3"><p>Контекстная реклама</p></div>
+                            <a><div class="main_services_box main_services_box_1"><p>SEO - ПРОДВИЖЕНИЕ</p></div></a>
+                            <a><div class="main_services_box main_services_box_2"><div class="main_services_box_image main_services_box_image_2"><img src="source/img/services/promotion.png"></div><p>КОМПЛЕКСНОЕ<br> ПРОДВИЖЕНИЕ</p></div></a>
+                            <a><div class="main_services_box main_services_box_3"><p>Контекстная реклама</p></div></a>
                         </div>
                         <div class="main_services_row">
-                            <div class="main_services_box main_services_box_4"><div class="main_services_box_image main_services_box_image_4" ><img src="source/img/services/monitor.png"></div><p>Разработка сайтов</p></div>
-                            <div class="main_services_box main_services_box_5"><p>Разработка лендингов</p></div>
-                            <div class="main_services_box main_services_box_6"><p>Доработка сайтов</p></div>
+                            <a><div class="main_services_box main_services_box_4"><div class="main_services_box_image main_services_box_image_4" ><img src="source/img/services/monitor.png"></div><p>Разработка сайтов</p></div></a>
+                            <a><div class="main_services_box main_services_box_5"><p>Разработка лендингов</p></div></a>
+                            <a><div class="main_services_box main_services_box_6"><p>Доработка сайтов</p></div></a>
                         </div>
                         <div class="main_services_row">
-                            <div class="main_services_box main_services_box_7"><p>Таргетированная реклама</p></div>
-                            <div class="main_services_box main_services_box_8"><div  class="main_services_box_image main_services_box_image_8"><img src="source/img/services/profile.png"></div><p>Продвижение в соц.сетях</p></div>
-                            <div class="main_services_box main_services_box_9"><p>Другие услуги</p></div>
+                            <a><div class="main_services_box main_services_box_7"><p>Таргетированная реклама</p></div></a>
+                            <a><div class="main_services_box main_services_box_8"><div  class="main_services_box_image main_services_box_image_8"><img src="source/img/services/profile.png"></div><p>Продвижение в соц.сетях</p></div></a>
+                            <a><div class="main_services_box main_services_box_9"><p>Другие услуги</p></div></a>
                         </div>
                     </div>
                   </div>
@@ -212,25 +213,59 @@
                     
                 </div>
             
+            <div class="main_wrap_color">
+
+                    <div class="main_wrap">
+                        <div class='main_choice'>
+                      
+                          <h2 class="main_title">Почему выбирают нас?</h2>
+                          <div class="main_choice_container">
+                              <div class="main_choice_row">
+                                  <div class="main_choice_box main_choice_box_1"><img src="source/img/choice/shield.png"><h5>Уговор дороже денег</h5><p>Сдержим любое обещание и сдадим работу точно в срок!</p></div>
+                                  <div class="main_choice_box main_choice_box_2"><img src="source/img/choice/tea-cup.png"><h5>Комфорт в общении</h5><p>Нам не придется объяснять дважды, мы все схватываем н на лету.</p></div>
+                                  <div class="main_choice_box main_choice_box_3"><img src="source/img/choice/loading.png"><h5>Работаем оперативно</h5><p>С нами у вас больше не будет проблем с обратной связью от подрядчиков.</p></div>
+                                  <div class="main_choice_box main_choice_box_4"><img src="source/img/choice/analytics.png"><h5>Погружение в тематику</h5><p>Перед началом запуска проекта, мы всегда анализируем бизнес клиента со всех сторон.</p></div>
+                              </div>
+                              <div class="main_choice_row">
+                                  <div class="main_choice_box main_choice_box_5"><img src="source/img/choice/eye.png"><h5>Преданы клиенту</h5><p>Мы стремимся максимально удовлетворить ваши потребности</p></div>
+                                  <div class="main_choice_box main_choice_box_6"><img src="source/img/choice/startup.png"><h5>Свободный выбор</h5><p>Функционал сайта можно расширить в любой момент.</p></div>
+                                  <div class="main_choice_box main_choice_box_7"><img src="source/img/choice/rgb.png"><h5>Знаем абсолютно все!</h5><p>Специалисты, способные решить любые поставленные перед ними задачи.</p></div>
+                                  <div class="main_choice_box main_choice_box_8"><p>Хочу создать сайт для компании и видеть его в ТОПе!</p><div class="main_choice_button"><a href="#" class="button">Кликнуть</a></div></div>
+                              </div>
+                              
+                          </div>
+                        </div>
+                      </div>
+
+
+            </div>
+            
 
             <div class="main_wrap">
                 <div class="main_clients">
                     <h2 class="main_title">Наши клиенты</h2>
                     <div class="main_clients_container">
-                        <div class="main_clients_row">
-                            <div class="main_clients_box"><a><img src="source/img/лого/avtodvor.png" /></a></div>
-                            <div class="main_clients_box"><a><img src="source/img/лого/beluvelirtorg.png"/></a></div>
-                            <div class="main_clients_box"><a><img src="source/img/лого/dilandis.png"/></a></div>
-                        </div>
-                        <div class="main_clients_row">
-                            <div class="main_clients_box"><a><img src="source/img/лого/konnyisport.png"/></a></div>
-                            <div class="main_clients_box"><a><img src="source/img/лого/monplatin.png"/></a></div>
-                            <div class="main_clients_box"><a><img src="source/img/лого/multimarket.png"/></a></div>
-                        </div>
-                        <div class="main_clients_row">
-                            <div class="main_clients_box"><a><img src="source/img/лого/real.png"/></a></div>
-                            <div class="main_clients_box"><a><img src="source/img/лого/remont-diesel.png"/></a></div>
-                            <div class="main_clients_box"><a><img src="source/img/лого/top-engenering.png"/></a></div>
+                        <div class="main_clients_row slider">
+                            <div class="main_clients_column slider__item">
+                                <div class="main_clients_box"><a><img src="source/img/лого/avtodvor.png" /></a></div>
+                                <div class="main_clients_box"><a><img src="source/img/лого/beluvelirtorg.png"/></a></div>
+                            </div>
+                            <div class="main_clients_column slider__item">
+                                <div class="main_clients_box"><a><img src="source/img/лого/dilandis.png"/></a></div>
+                                <div class="main_clients_box"><a><img src="source/img/лого/konnyisport.png"/></a></div>
+                            </div>
+                            <div class="main_clients_column slider__item">
+                                <div class="main_clients_box"><a><img src="source/img/лого/monplatin.png"/></a></div>
+                                <div class="main_clients_box"><a><img src="source/img/лого/multimarket.png"/></a></div>
+                            </div>
+                            <div class="main_clients_column slider__item">
+                                <div class="main_clients_box"><a><img src="source/img/лого/real.png"/></a></div>
+                                <div class="main_clients_box"><a><img src="source/img/лого/remont-diesel.png"/></a></div>
+                            </div>
+                            <div class="main_clients_column slider__item">
+                                 <div class="main_clients_box"><a><img src="source/img/лого/top-engenering.png"/></a></div>
+                                 <div class="main_clients_box"><a><img src="source/img/лого/top-engenering.png"/></a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -240,9 +275,13 @@
             <div class="main_reviews">
                 <div class="main_wrap main_reviews_wrap">
                     <h2 class="main_title">Отзывы</h2>
-                    <div class="main_reviews_container">
-                        <div class="main_reviews_box"><a href="#"><img src="source/img/otzyv.1-1.png" /></a></div>
-                        <div class="main_reviews_box"><a href="#"><img src="source/img/otzyv2-1.png" /></a></div>
+                    <div class="main_reviews_container  slider2">
+                        <div class="main_reviews_box slider__item"><a data-fancybox="gallery" href="source/img/otzyv.1-1.png"><img src="source/img/otzyv.1-1.png" /></a></div>
+                        <div class="main_reviews_box slider__item"><a data-fancybox="gallery" href="source/img/otzyv2-1.png"><img src="source/img/otzyv2-1.png" /></a></div>
+                        <div class="main_reviews_box slider__item"><a data-fancybox="gallery" href="source/img/otzyv.1-1.png"><img src="source/img/otzyv.1-1.png" /></a></div>
+                        <div class="main_reviews_box slider__item"><a data-fancybox="gallery" href="source/img/otzyv2-1.png"><img src="source/img/otzyv2-1.png" /></a></div>
+                        <div class="main_reviews_box slider__item"><a data-fancybox="gallery" href="source/img/otzyv.1-1.png"><img src="source/img/otzyv.1-1.png" /></a></div>
+                        <div class="main_reviews_box slider__item"><a data-fancybox="gallery" href="source/img/otzyv2-1.png"><img src="source/img/otzyv2-1.png" /></a></div>
                     </div>
                 </div>
             </div>
@@ -299,37 +338,9 @@
         </main>
         <footer class="footer">
            <div class="footer_wrap">
-               <div class="footer_box">
-                
-                  
-                    <ul>Услуги:
-                        <li><a href="#">комплексное продвижение</a></li>
-                        <li><a href="#">seo-продвижение</a></li>
-                        <li><a href="#">контекстная реклама</a></li>
-                        <li><a href="#">продвижение в Instagram</a></li>
-                        <li><a href="#">продвижение в Фэйсбук</a></li>
-                        <li><a href="#">продвижение во Вконтакте</a></li>
-                        <li><a href="#">таргетированная реклама</a></li>
-                        <li><a href="#">разработка интернет-портала</a></li>
-                        <li><a href="#">разработка интернет-магазина</a></li>
-                        <li><a href="#">разработка корпоративного сайта</a></li>
-                        <li><a href="#">разработка сайт-визитка</a></li>
-                        <li><a href="#">создание landing page</a></li>
-                        <li><a href="#">техническая поддержка сайта</a></li>
-                        <li><a href="#">адаптивная верстка</a></li>
-                    </ul>
-                </div>
+
                 <div class="footer_box">
-                    <ul>
-                        <li><a href="#">Кейсы</a></li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Политика конфиденциальности</a> </li>
-                    </ul>
-
-               </div>
-
-               <div class="footer_box">
+                  
                 <ul>
                     Реквизиты:
                     <li>ООО «Хаски медиа»</li>
@@ -339,8 +350,50 @@
                     <br>
                     <li>Монтажников, д.9, пом. 85</li>
                 </ul>
+                <div class="footer_logo">
+                    <img src="source/img/logo.jpg">
+                  </div>
+
 
                </div>
+
+               <div class="footer_box">
+                
+                  <p>Услуги:</p>
+                    <div class="footer_services">
+                        <ul>
+                            <li><a href="#">комплексное продвижение</a></li>
+                            <li><a href="#">seo-продвижение</a></li>
+                            <li><a href="#">контекстная реклама</a></li>
+                            <li><a href="#">продвижение в Instagram</a></li>
+                            <li><a href="#">продвижение в Фэйсбук</a></li>
+                            <li><a href="#">продвижение во Вконтакте</a></li>
+                            <li><a href="#">таргетированная реклама</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">разработка интернет-портала</a></li>
+                            <li><a href="#">разработка интернет-магазина</a></li>
+                            <li><a href="#">разработка корпоративного сайта</a></li>
+                            <li><a href="#">разработка сайт-визитка</a></li>
+                            <li><a href="#">создание landing page</a></li>
+                            <li><a href="#">техническая поддержка сайта</a></li>
+                            <li><a href="#">адаптивная верстка</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_box">
+                    
+                    <ul>
+                        <li><a href="#">Кейсы</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Политика конфиденциальности</a> </li>
+                    </ul>
+
+               </div>
+
+               
 
                
 
@@ -363,7 +416,12 @@
 
 
         </footer>
-    
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+        <script src='js/slick.min.js'></script> 
+        <script src='js/wow.min.js'></script> 
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src='js/main.js'></script> 
+        
 
 </body>
 </html>

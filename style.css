@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.footer_wrap, .main_contact-form_item, .main_contact-form_row, .main_contact-form_wrap, .main_contact-form_box, .main_contact-form, .main_reviews_container, .main_clients_box a, .main_clients_row, .main_about_button, .main_about_wrap, .main_about_container, .main_case_box, .main_case_row, .main_services_box, .main_services_row, .banner_contact-form_item, .banner_contact-form_row, .main_banner_container_right, .main_banner, .header_top_buttons, .header_top_contacts, .header_top_email, .header_wrap {
+.footer_wrap, .footer_services, .main_contact-form_item, .main_contact-form_row, .main_contact-form_wrap, .main_contact-form_box, .main_contact-form, .main_reviews_container, .main_clients_box a, .main_clients_row, .main_choice_button, .main_choice_row, .main_about_button, .main_about_wrap, .main_about_container, .main_case_box, .main_case_row, .main_services_box, .main_services_row, .banner_contact-form_item, .banner_contact-form_row, .main_banner_container_right, .main_banner_container_left, .main_banner, .header_top_buttons, .header_top_contacts, .header_top_email, .header_wrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +87,18 @@ body {
 
 /*index.html -------------------*/
 /*HEADER*/
+.header {
+  z-index: 10;
+  width: 100%;
+}
+
+.header_fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0.8;
+}
+
 .header_wrap {
   width: 1180px;
   margin: 0 auto;
@@ -210,12 +222,13 @@ body {
 }
 
 .main_banner_container_right {
-  background-image: url("source/img/fon_formi.png");
+  background-image: url("../source/img/fon_formi.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   width: 60%;
   height: 100%;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -263,8 +276,8 @@ body {
 .main_banner_arrow {
   position: absolute;
   z-index: 3;
-  right: 550px;
-  top: 530px;
+  right: 510px;
+  bottom: 10px;
 }
 .main_banner_arrow img {
   height: 220px;
@@ -339,7 +352,6 @@ input:checked + .label_checkbox:before {
   background-color: #42217a;
 }
 
-
 /* Услуги */
 .main_wrap_color {
   padding-bottom: 60px;
@@ -366,6 +378,14 @@ input:checked + .label_checkbox:before {
 .main_services_row {
   justify-content: space-between;
   margin-top: 20px;
+}
+
+.main_services_row a {
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main_services_row a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .main_services_box {
@@ -468,7 +488,7 @@ input:checked + .label_checkbox:before {
   /*border: solid 2px #3a3a3a;*/
   position: relative;
   border-radius: 5px;
-  width: 30%;
+  width: 370px;
   height: 200px;
   font-size: 24px;
   font-weight: 600;
@@ -493,7 +513,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_1 {
-  background-image: url("source/img/case/ADENT.BY.png");
+  background-image: url("../source/img/case/ADENT.BY.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -506,7 +526,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_2 {
-  background-image: url("source/img/case/FOXBAT.png");
+  background-image: url("../source/img/case/FOXBAT.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -531,7 +551,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_3 {
-  background-image: url("source/img/case/MULTIMARKET.BY.png");
+  background-image: url("../source/img/case/MULTIMARKET.BY.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -556,7 +576,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_4 {
-  background-image: url("source/img/case/Lstandard.png");
+  background-image: url("../source/img/case/Lstandard.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -581,7 +601,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_5 {
-  background-image: url("source/img/case/BRELKI_OBLOZHKI.png");
+  background-image: url("../source/img/case/BRELKI_OBLOZHKI.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -660,6 +680,63 @@ input:checked + .label_checkbox:before {
   color: #451F72;
 }
 
+/*Почему нас выбирают*/
+.main_choice_row {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.main_choice_box {
+  position: relative;
+  height: 200px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  width: 290px;
+}
+.main_choice_box img {
+  height: 56px;
+}
+.main_choice_box h5 {
+  font-size: 20px;
+  color: #6945A5;
+  margin: 24px 0;
+  text-align: left;
+}
+.main_choice_box p {
+  font-size: 14px;
+  text-align: left;
+}
+
+.main_choice_box_8 {
+  height: 230px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 40px 20px;
+}
+.main_choice_box_8 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main_choice_button {
+  margin-top: 20px;
+}
+.main_choice_button .button {
+  display: block;
+  background-color: #6945A5;
+  color: #fff;
+  height: 46px;
+  line-height: 46px;
+  border-radius: 10px;
+  padding: 0 20px;
+  width: auto;
+}
+.main_choice_button .button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /*Клиенты*/
 .main_clients {
   width: 100%;
@@ -669,12 +746,12 @@ input:checked + .label_checkbox:before {
 
 .main_clients_row {
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .main_clients_box {
+  margin: 20px;
   border-radius: 5px;
-  width: 370px;
+  width: 300px;
   height: 200px;
   text-transform: uppercase;
   font-weight: 600;
@@ -693,6 +770,43 @@ input:checked + .label_checkbox:before {
   height: auto;
 }
 
+/* Слайдер */
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider {
+  position: relative;
+  padding: 0 50px;
+  height: auto;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 3;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../source/img/left_arrow.png") 0 0/100% no-repeat;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../source/img/right_arrow.png") 0 0/100% no-repeat;
+}
+
+@media (max-width: 320px) {
+  .slider {
+    padding: 0 10px;
+  }
+}
 /*Отзывы*/
 .main_reviews {
   width: 100%;
@@ -717,6 +831,43 @@ input:checked + .label_checkbox:before {
   width: 100%;
 }
 
+/*Слайдер 2*/
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider2 {
+  position: relative;
+  padding: 0 50px;
+  height: auto;
+}
+.slider2 .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 3;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+}
+.slider2 .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../source/img/left_arrow.png") 0 0/100% no-repeat;
+}
+.slider2 .slick-arrow.slick-next {
+  right: 0;
+  background: url("../source/img/right_arrow.png") 0 0/100% no-repeat;
+}
+
+@media (max-width: 320px) {
+  .slider {
+    padding: 0 10px;
+  }
+}
 /* Контактная форма */
 .main_contact-form {
   width: 100%;
@@ -825,6 +976,21 @@ input.btn-input__submit {
 }
 .footer a:hover {
   text-decoration: underline;
+}
+
+.footer_logo {
+  margin-top: 20px;
+}
+.footer_logo img {
+  width: 100px;
+}
+
+.footer_services ul {
+  margin-right: 10px;
+}
+
+.footer_box p {
+  font-size: 20px;
 }
 
 .footer_wrap {
