@@ -222,7 +222,7 @@ body {
 }
 
 .main_banner_container_right {
-  background-image: url("../source/img/fon_formi.png");
+  background-image: url("source/img/fon_formi.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -438,7 +438,7 @@ input:checked + .label_checkbox:before {
 }
 
 /*.main_services_box_image_4 {
-    background-image: url("../source/img/services/monitor\ 1.png");
+    background-image: url("source/img/services/monitor\ 1.png");
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
@@ -513,7 +513,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_1 {
-  background-image: url("../source/img/case/ADENT.BY.png");
+  background-image: url("source/img/case/ADENT.BY.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -526,7 +526,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_2 {
-  background-image: url("../source/img/case/FOXBAT.png");
+  background-image: url("source/img/case/FOXBAT.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -551,7 +551,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_3 {
-  background-image: url("../source/img/case/MULTIMARKET.BY.png");
+  background-image: url("source/img/case/MULTIMARKET.BY.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -576,7 +576,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_4 {
-  background-image: url("../source/img/case/Lstandard.png");
+  background-image: url("source/img/case/Lstandard.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -601,7 +601,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_5 {
-  background-image: url("../source/img/case/BRELKI_OBLOZHKI.png");
+  background-image: url("source/img/case/BRELKI_OBLOZHKI.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -795,11 +795,11 @@ input:checked + .label_checkbox:before {
 }
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("../source/img/left_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/left_arrow.png") 0 0/100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("../source/img/right_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/right_arrow.png") 0 0/100% no-repeat;
 }
 
 @media (max-width: 320px) {
@@ -856,11 +856,11 @@ input:checked + .label_checkbox:before {
 }
 .slider2 .slick-arrow.slick-prev {
   left: 0;
-  background: url("../source/img/left_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/left_arrow.png") 0 0/100% no-repeat;
 }
 .slider2 .slick-arrow.slick-next {
   right: 0;
-  background: url("../source/img/right_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/right_arrow.png") 0 0/100% no-repeat;
 }
 
 @media (max-width: 320px) {
