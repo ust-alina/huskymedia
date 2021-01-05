@@ -21,7 +21,9 @@ $(document).ready(function(){
 				breakpoint: 550,
 				settings: {
 					slidesToShow:1,
-					arrows : false
+					arrows : false,
+					autoplay: true,
+                    autoplaySpeed: 2000
 				}
 			}
 		]
@@ -64,17 +66,6 @@ $(document).ready(function(){
 
 });
 
-$(function() {
-	let header = $('.header');
-	 
-	$(window).scroll(function() {
-	  if($(this).scrollTop() > 1) {
-	   header.addClass('header_fixed');
-	  } else {
-	   header.removeClass('header_fixed');
-	  }
-	});
-   });
 
    $(function() {
 	let header = $('.header');
@@ -84,13 +75,21 @@ $(function() {
 	  if($(this).scrollTop() > 1) {
 	   header.addClass('header_fixed');
 	   $('main').css({
-		  'paddingTop': hederHeight+'px' // делаем отступ у body, равный высоте шапки
-	   });
-	  } else {
-	   header.removeClass('header_fixed');
-	   $('main').css({
-		'paddingTop': 0 // удаляю отступ у body, равный высоте шапки
-	   })
+		'paddingTop': hederHeight+'px' // делаем отступ у body, равный высоте шапки
+	 });
+	} else {
+	 header.removeClass('header_fixed');
+	 $('main').css({
+	  'paddingTop': 0 // удаляю отступ у body, равный высоте шапки
+	 })
 	  }
 	});
-   });
+
+    $('.menu-burger__header').click(function() {
+		$('.menu-burger__header').toggleClass('open-menu');
+		$('.header_menu').toggleClass('open-menu');
+		$('body').toggleClass('fixed-page');
+    });
+
+});
+
