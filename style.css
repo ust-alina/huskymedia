@@ -437,7 +437,7 @@ body.touch .dropdown.open {
 }
 
 .main_banner_container_right {
-  background-image: url("../source/img/fon_formi.png");
+  background-image: url("source/img/fon_formi.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -449,7 +449,7 @@ body.touch .dropdown.open {
 }
 @media (max-width: 992px) {
   .main_banner_container_right {
-    background-image: url("../source/img/uzor.png");
+    background-image: url("source/img/uzor.png");
     width: 100%;
     height: 400px;
   }
@@ -788,7 +788,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_1 {
-  background-image: url("../source/img/case/ADENT.BY.png");
+  background-image: url("source/img/case/ADENT.BY.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -801,7 +801,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_2 {
-  background-image: url("../source/img/case/FOXBAT.png");
+  background-image: url("source/img/case/FOXBAT.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -826,7 +826,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_3 {
-  background-image: url("../source/img/case/MULTIMARKET.BY.png");
+  background-image: url("source/img/case/MULTIMARKET.BY.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -851,7 +851,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_4 {
-  background-image: url("../source/img/case/Lstandard.png");
+  background-image: url("source/img/case/Lstandard.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -876,7 +876,7 @@ input:checked + .label_checkbox:before {
 }
 
 .main_case_box_5 {
-  background-image: url("../source/img/case/BRELKI_OBLOZHKI.png");
+  background-image: url("source/img/case/BRELKI_OBLOZHKI.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -1115,11 +1115,11 @@ input:checked + .label_checkbox:before {
 }
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("../source/img/left_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/left_arrow.png") 0 0/100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("../source/img/right_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/right_arrow.png") 0 0/100% no-repeat;
 }
 
 @media (max-width: 320px) {
@@ -1181,11 +1181,11 @@ input:checked + .label_checkbox:before {
 }
 .slider2 .slick-arrow.slick-prev {
   left: 0;
-  background: url("../source/img/left_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/left_arrow.png") 0 0/100% no-repeat;
 }
 .slider2 .slick-arrow.slick-next {
   right: 0;
-  background: url("../source/img/right_arrow.png") 0 0/100% no-repeat;
+  background: url("source/img/right_arrow.png") 0 0/100% no-repeat;
 }
 
 @media (max-width: 320px) {
@@ -1466,7 +1466,7 @@ input.btn-input__submit {
 }
 
 .services_box_2_1_1 {
-  background-image: url("../source/img/services_page/kontekstnaya-reklama.png");
+  background-image: url("source/img/services_page/kontekstnaya-reklama.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1490,7 +1490,7 @@ input.btn-input__submit {
 .services_box_2_2 {
   width: 100%;
   height: 115px;
-  background-image: url("../source/img/services_page/10_Yml6ZXNwcm9jZXNz.png");
+  background-image: url("source/img/services_page/10_Yml6ZXNwcm9jZXNz.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1506,7 +1506,7 @@ input.btn-input__submit {
   width: 370px;
   background-color: #ffcf00;
   height: 300px;
-  background-image: url("../source/img/services_page/inst.png");
+  background-image: url("source/img/services_page/inst.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1539,7 +1539,7 @@ input.btn-input__submit {
 .services_box_5 {
   width: 370px;
   height: 300px;
-  background-image: url("../source/img/services_page/89a9c21ccdf2e14ccef34e281558bc9b.png");
+  background-image: url("source/img/services_page/89a9c21ccdf2e14ccef34e281558bc9b.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1557,7 +1557,7 @@ input.btn-input__submit {
 .services_box_6_1 {
   width: 100%;
   height: 115px;
-  background-image: url("../source/img/services_page/landing.png");
+  background-image: url("source/img/services_page/landing.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1595,7 +1595,7 @@ input.btn-input__submit {
 }
 
 .services_box_6_2_2 {
-  background-image: url("../source/img/services_page/internet-portal-min.png");
+  background-image: url("source/img/services_page/internet-portal-min.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
@@ -1634,7 +1634,7 @@ input.btn-input__submit {
 .services_box_8 {
   width: 370px;
   height: 300px;
-  background-image: url("../source/img/services_page/korporativnyy-sait.png");
+  background-image: url("source/img/services_page/korporativnyy-sait.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1655,7 +1655,7 @@ input.btn-input__submit {
 .services_box_10 {
   width: 370px;
   height: 300px;
-  background-image: url("../source/img/services_page/dizan.png");
+  background-image: url("source/img/services_page/dizan.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1673,7 +1673,7 @@ input.btn-input__submit {
 /*---------------------------------*/
 /* Разработка сайтов */
 .dev_banner {
-  background-image: url("../source/img/dev_page/DEV_banner.png");
+  background-image: url("source/img/dev_page/DEV_banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1930,7 +1930,7 @@ input.btn-input__submit {
 }
 
 .dev_site_type_box_img_1 {
-  background-image: url("../source/img/dev_page/landing-pag.png");
+  background-image: url("source/img/dev_page/landing-pag.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1975,7 +1975,7 @@ input.btn-input__submit {
 }
 
 .dev_site_type_box_img_2 {
-  background-image: url("../source/img/dev_page/korporativni-sait-min.png");
+  background-image: url("source/img/dev_page/korporativni-sait-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1984,7 +1984,7 @@ input.btn-input__submit {
 }
 
 .dev_site_type_box_img_3 {
-  background-image: url("../source/img/dev_page/vizitka-sait-min.png");
+  background-image: url("source/img/dev_page/vizitka-sait-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1993,7 +1993,7 @@ input.btn-input__submit {
 }
 
 .dev_site_type_box_img_4 {
-  background-image: url("../source/img/dev_page/internet-magaz.png");
+  background-image: url("source/img/dev_page/internet-magaz.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2002,7 +2002,7 @@ input.btn-input__submit {
 }
 
 .dev_site_type_box_img_5 {
-  background-image: url("../source/img/dev_page/katalog.png");
+  background-image: url("source/img/dev_page/katalog.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2011,7 +2011,7 @@ input.btn-input__submit {
 }
 
 .dev_site_type_box_img_6 {
-  background-image: url("../source/img/dev_page/internet-portal.png");
+  background-image: url("source/img/dev_page/internet-portal.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2196,7 +2196,7 @@ input.btn-input__submit {
   padding-right: 20px;
   font-weight: 600;
   font-size: 18px;
-  list-style-image: url(../source/img/dev_page/v.png);
+  list-style-image: url('source/img/dev_page/v.png');
 }
 
 /*------------------*/
@@ -2232,7 +2232,7 @@ input.btn-input__submit {
 
 /*SEO*/
 .seo_banner {
-  background-image: url("../source/img/seo/DEV_banner.png");
+  background-image: url("source/img/seo/DEV_banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
