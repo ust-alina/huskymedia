@@ -1369,6 +1369,21 @@ input.btn-input__submit {
 }
 
 /*НАШИ УСЛУГИ 565 370*/
+
+.breadcrumbs_services {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.breadcrumbs_services li {
+  display: inline;
+  padding-right: 10px;
+}
+.breadcrumbs_services li a:hover {
+  text-decoration: underline;
+}
+
 .breadcrumbs {
   width: 100%;
   padding-top: 20px;
