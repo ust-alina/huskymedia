@@ -69,18 +69,18 @@ $(document).ready(function(){
 
    $(function() {
 	let header = $('.header');
-	let hederHeight = header.height(); // вычисляем высоту шапки
+	let hederHeight = header.height(); 
 	 
 	$(window).scroll(function() {
 	  if($(this).scrollTop() > 1) {
 	   header.addClass('header_fixed');
 	   $('main').css({
-		'paddingTop': hederHeight+'px' // делаем отступ у body, равный высоте шапки
+		'paddingTop': hederHeight+'px' 
 	 });
 	} else {
 	 header.removeClass('header_fixed');
 	 $('main').css({
-	  'paddingTop': 0 // удаляю отступ у body, равный высоте шапки
+	  'paddingTop': 0 
 	 })
 	  }
 	});
@@ -89,7 +89,36 @@ $(document).ready(function(){
 		$('.menu-burger__header').toggleClass('open-menu');
 		$('.header_menu').toggleClass('open-menu');
 		$('body').toggleClass('fixed-page');
-    });
+	});
+	
+
 
 });
+
+let isMobile = {
+	Android: function() {return navigator.userAgent.match(/Android/i);},
+	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+	Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+};
+		let body=document.querySelector('body');
+if(isMobile.any()){
+		body.classList.add('touch');
+		let arrow=document.querySelectorAll('.header_menu_arrow');
+	for(i=0; i<arrow.length; i++){
+			let thisLink=arrow[i].previousElementSibling;
+			let subMenu=arrow[i].nextElementSibling;
+			let thisArrow=arrow[i];
+
+			thisLink.classList.add('parent');
+		arrow[i].addEventListener('click', function(){
+			subMenu.classList.toggle('open');
+			thisArrow.classList.toggle('active');
+		});
+	}
+}else{
+	body.classList.add('mouse');
+}
 
